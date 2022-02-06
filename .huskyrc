@@ -1,0 +1,5 @@
+source ~/.bashrc
+
+if test -f ".nvmrc"; then
+    nvm use
+fi
